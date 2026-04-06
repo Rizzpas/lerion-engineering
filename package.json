@@ -1,0 +1,13 @@
+{
+  "name": "lerion-engineering-limited",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.2.2",
+    "aos": "^2.3.4",
+    "flowbite": "^4.0.1",
+    "tailwindcss": "^4.2.2"
+  }
+}

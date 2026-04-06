@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/fonts/Inter-VariableFont_opsz\,wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+    html {
+        font-family: "Inter", sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+
+.grid-bg-animated {
+        /* Draw the Grid (Faint dark lines for your light theme) */
+        background-image: 
+            linear-gradient(to right, rgba(0, 0, 0, 0.06) 1px, transparent 1px),
+            linear-gradient(to bottom, rgba(0, 0, 0, 0.06) 1px, transparent 1px);
+        
+        /* Size of the grid squares */
+        background-size: 40px 40px; 
+        
+        /* 1. Change to a wide ellipse mask that is 'bigger' */
+        /* Set explicit radii (e.g., width radius is 90%, height radius is 70% of the container) */
+        /* Increased black stop (from 40% to 65%) makes the solid region larger */
+        -webkit-mask-image: radial-gradient(ellipse 90% 70% at center, black 65%, transparent 95%);
+        mask-image: radial-gradient(ellipse 90% 70% at center, black 65%, transparent 95%);
+        
+        /* The seamless looping animation moving downwards */
+        animation: scrollGrid 3s linear infinite;
+    }
+
+    @keyframes scrollGrid {
+        0% { background-position: 0px 0px; }
+        100% { background-position: 0px 40px; }
+    }
