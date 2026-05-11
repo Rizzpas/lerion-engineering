@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Lerion Engineering Limited
+### The Standard of Precision
 
-## Getting Started
+Quality of Work Is Our Assurance. Specializing in Structural Steel Detailing, Rigging, and Site Fabrication Welding across New Zealand. We engineer the skeletal strength of modern infrastructure.
 
-First, run the development server:
+---
+
+## 🛠️ Our Services
+- **Structural Steel Detailing**: High-precision CAD modeling and shop drawings.
+- **Rigging & Installation**: Safe and efficient structural assembly.
+- **Site Fabrication & Welding**: Expert on-site modifications and certified welding.
+- **Manpower Supply**: Providing skilled labor for engineering projects.
+
+## 🏗️ Technical Stack
+This project is built with a premium modern stack:
+- **Framework**: [Next.js 16 (App Router)](https://nextjs.org/)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+
+## 🚀 Getting Started
+To run the development server locally:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📞 Contact Us
+- **Location**: Auckland, NZ
+- **Phone**: 021 286 2885
+- **Email**: noriel@lerion.co.nz
+- **Website**: [lerionengineering.co.nz](https://lerionengineering.co.nz)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
